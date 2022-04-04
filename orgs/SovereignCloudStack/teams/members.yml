@@ -1,0 +1,30 @@
+---
+teams:
+  admins:
+    description: Admins
+    visibility: public
+    parent:
+    maintainer:
+      - garloff
+      - berendt
+      - ittrich
+    member:
+  maintainers:
+    description: Maintainers
+    visibility: public
+    parent:
+    maintainer:
+      - garloff
+    member:
+      - beermann
+  osism:
+    description:
+    visibility: public
+    parent:
+    maintainer:
+    member:
+      - berendt
+      - matfechner
+      - tibeer
+      - ra-rau
+      - osfrickler

@@ -1,0 +1,14 @@
+---
+users:
+  - name: Kurt Garloff
+    login: garloff
+    role: Owner
+  - name: Eduard Ittrich
+    login: ittrich
+    role: Member
+  - name: Christian Berendt
+    login: berendt
+    role: Member
+  - name: Tim Beermann
+    login: beermann
+    role: Member
