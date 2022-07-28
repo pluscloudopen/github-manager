@@ -28,7 +28,7 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
     # handle labels
 
     gh_labels = gh_repository.get_labels()
-    
+
     labels = {}
 
     for gh_label in gh_labels:
@@ -40,14 +40,13 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
             if args.dry is False:
                 try:
                     gh_repository.create_label(
-                      name=label['name'],
-                      description=label['description'],
-                      color=label['color']
+                        name=label['name'],
+                        description=label['description'],
+                        color=label['color']
                     )
                 except:
                     logging.info(f"{gh_repository.name} - label {label['name']} - Failed to create label")
         else:
-            
             gh_label = labels[label['name']]
 
             if gh_label.description != label['description'] or gh_label.color != label['color']:
@@ -76,15 +75,14 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
             if args.dry is False:
                 gh_milestone.edit(title=gh_milestone.title, state="closed")
 
-    for milestone in CONFIG['milestones']:
-        milestone_found= False
+    gh_milestone_titles = []
+    for gh_milestone in gh_milestones:
+        gh_milestone_titles.append(gh_milestone.title)
 
-        for gh_milestone in gh_milestones:
-            if milestone == gh_milestone.title:
-                logging.info(f"{gh_repository.name} - milestone {milestone} does exist")
-                milestone_found= True
-                break
-    if milestone_found is False:
-        logging.info(f"{gh_repository.name} - milestone {milestone} does not exist")
-        if args.dry is False:
-            gh_repository.create_milestone(title=milestone, state="open")
+    for milestone in CONFIG['milestones']:
+        if milestone in gh_milestone_titles:
+            logging.info(f"{gh_repository.name} - milestone {milestone} does exist")
+        else:
+            logging.info(f"{gh_repository.name} - milestone {milestone} does not exist")
+            if args.dry is False:
+                gh_repository.create_milestone(title=milestone, state="open")
