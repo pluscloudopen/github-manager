@@ -37,11 +37,14 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
     for label in CONFIG['labels']:
         if label['name'] not in labels.keys():
             logging.info(f"{gh_repository.name} - label {label['name']} does not exist")
-            gh_repository.create_label(
-                name=label['name'],
-                description=label['description'],
-                color=label['color']
-            )
+            try:
+                gh_repository.create_label(
+                  name=label['name'],
+                  description=label['description'],
+                  color=label['color']
+                )
+            except:
+                logging.info(f"{gh_repository.name} - label {label['name']} - Failed to create label")
         else:
             
             gh_label = labels[label['name']]
