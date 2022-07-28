@@ -12,7 +12,7 @@ ORGANIZATION = os.environ.get("ORGANIZATION", "sovereigncloudstack")
 gh = github.Github(login_or_token=GITHUB_TOKEN)
 
 parser = ArgumentParser()
-parser.add_argument("-s", "--strict", default=False, help="Strict mode - remove labels not defined")
+parser.add_argument("-s", "--strict", default=True, help="Strict mode - remove labels not defined")
 args = parser.parse_args()
 
 with open("config.yaml") as fp:
