@@ -76,8 +76,8 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
             if args.dry is False:
                 gh_milestone.edit(title=gh_milestone.title, state="closed")
 
-    milestone_found= False
     for milestone in CONFIG['milestones']:
+        milestone_found= False
 
         for gh_milestone in gh_milestones:
             if milestone == gh_milestone.title:
