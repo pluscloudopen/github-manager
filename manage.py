@@ -68,20 +68,19 @@ for gh_repository in gh.get_organization(ORGANIZATION).get_repos(type='public'):
 
     gh_milestones = gh_repository.get_milestones(state='open')
 
-    milestones = []
-    current_milestone = CONFIG['current_milestone']
-    next_milestone = CONFIG['next_milestone']
-
     for gh_milestone in gh_milestones:
-        milestones.append(gh_milestone.title)
-        if gh_milestone.title not in [current_milestone, next_milestone]:
+        if gh_milestone.title not in CONFIG['milestones']:
             logging.info(f"{gh_repository.name} - {gh_milestone.title} should be in state 'closed'")
             gh_milestone.edit(title=gh_milestone.title, state="closed")
 
-    if current_milestone not in milestones:
-        logging.info(f"{gh_repository.name} - current milestone {current_milestone} does not exist")
-        gh_repository.create_milestone(title=current_milestone, state="open")
+    milestone_found= False
+    for milestone in CONFIG['milestones']:
 
-    if next_milestone not in milestones:
-        logging.info(f"{gh_repository.name} - next milestone {next_milestone} does not exist")
-        gh_repository.create_milestone(title=next_milestone, state="open")
+        for gh_milestone in gh_milestones:
+            if milestone == gh_milestone.title:
+                logging.info(f"{gh_repository.name} - milestone {milestone} does exist")
+                milestone_found= True
+                break
+    if milestone_found is False:
+        logging.info(f"{gh_repository.name} - milestone {milestone} does not exist")
+        gh_repository.create_milestone(title=milestone, state="open")
