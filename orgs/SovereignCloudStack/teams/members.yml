@@ -1,30 +1,141 @@
 ---
 teams:
-  admins:
-    description: Admins
+  23technologies:
+    description: 23 23technologies GmbH
     visibility: public
     parent:
     maintainer:
-      - garloff
       - berendt
-      - ittrich
     member:
-  maintainers:
-    description: Maintainers
+      - berendt
+      - mxmxchere
+      - fynluk
+  8gears:
+    description: 8gears Ltd.
+    visibility: public
+    parent:
+    maintainer:
+      - Vad1mo
+    member:
+      - Vad1mo
+  b1-systems:
+    description: B1 Systems GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - curx
+    member:
+      - curx
+      - grischdian
+      - isaacintactile
+      - tinguin
+  cloud-and-heat:
+    description: Cloud&Heat Technologies GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - horazont
+    member:
+      - horazont
+      - kgube
+  gonicus:
+    description: GONICUS GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - o-otte
+    member:
+      - o-otte
+      - joshmue
+  gridscale:
+    description: gridscale GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - ajfriesen
+    member:
+      - ajfriesen
+      - itakouna
+  openinfra:
+    description: OpenInfra Foundation
+    visibility: public
+    parent:
+    maintainer:
+      - ttx
+    member:
+      - ttx
+  osba:
+    description: Open Source Business Alliance – Bundesverband für digitale Souveränität e.V.
     visibility: public
     parent:
     maintainer:
       - garloff
     member:
-      - beermann
+      - garloff
+      - fkr
+      - itrich
+      - ManuelaUr
   osism:
-    description:
+    description: OSISM GmbH
     visibility: public
     parent:
     maintainer:
+      - berendt
     member:
       - berendt
       - matfechner
       - tibeer
       - ra-rau
       - osfrickler
+  plusserver:
+    description: PlusServer GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - frosty-geek
+    member:
+      - frosty-geek
+      - neuroserve
+      - maliblatt
+      - nerdicbynature
+      - costelter
+      - Phil9219
+      - elZander
+      - PSwatchmen
+  syself:
+    description: Syself GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - batistein
+    member:
+      - batistein
+      - janiskemper
+  uhurutec:
+    description: UhuruTec AG
+    visibility: public
+    parent:
+    maintainer:
+      - jklippel
+    member:
+      - jklippel
+      - harmathy
+      - mauhau
+  univention:
+    description: Univention GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - reqa
+    member:
+      - reqa
+      - stunivention
+  wavecon:
+    description: Wavecon GmbH
+    visibility: public
+    parent:
+    maintainer:
+      - jnull
+    member:
+      - jnull
+      - linwalth
