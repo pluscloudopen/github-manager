@@ -2,8 +2,7 @@
 github-permissions:
   default_branch: main
   description: Managing the GitHub permissions of the SovereignCloudStack organization
-  homepage: ''
-  language: YAML
+  homepage: 'https://scs.community/contribute/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,22 +14,15 @@ github-permissions:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
   topics:
-    - scs
-    - scs-production
-    - scs-production-low
-    - scs-production-medium
-    - scs-production-high
-    - scs-staging
-    - scs-experimental
-  protection_rules: []
+    - github
+    - community
+  protection_rules: default

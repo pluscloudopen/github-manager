@@ -1,8 +1,8 @@
 ---
-k8s-minio:
+open-operations-manifesto:
   default_branch: main
-  description: 'Deployment manifests for MinIO®'
-  homepage: 'https://scs.community/'
+  description: Let’s start closing the gap to have open source style collaboration not just for the Dev piece in DevOps.
+  homepage: 'https://openoperations.org/'
   archived: false
   has_issues: true
   has_projects: false
@@ -23,5 +23,5 @@ k8s-minio:
     push:
     admin:
   topics:
-    - k8s
+    - community
   protection_rules: default

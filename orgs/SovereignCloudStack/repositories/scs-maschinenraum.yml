@@ -3,8 +3,7 @@ scs-maschinenraum:
   default_branch: main
   description: WorkAdventure map used for the Community Summit 2021
   homepage: 'https://machinenraum.scs.community'
-  language: MARKDOWN
-  archived: false
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -15,15 +14,14 @@ scs-maschinenraum:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - community
+  protection_rules: default

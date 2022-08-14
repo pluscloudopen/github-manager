@@ -2,8 +2,7 @@
 testbed-gx-iam:
   default_branch: main
   description: GAIA-X SCS Identity and Access Management (IAM) testbed
-  homepage: ''
-  language: HCL
+  homepage: 'https://scs.community/'
   archived: true
   has_issues: true
   has_projects: false
@@ -15,11 +14,9 @@ testbed-gx-iam:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
@@ -30,4 +27,4 @@ testbed-gx-iam:
     - openstack-environment
     - openstack-keystone
     - gaia-x
-  protection_rules: []
+  protection_rules: default

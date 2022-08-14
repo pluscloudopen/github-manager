@@ -2,8 +2,7 @@
 openstack-health-monitor:
   default_branch: main
   description: Script to monitor wheather an OpenStack cloud is working correctly
-  homepage: ''
-  language: SHELL
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,18 +14,15 @@ openstack-health-monitor:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
   topics:
-    - bash
     - openstack
     - openstack-environment
-  protection_rules: []
+  protection_rules: default

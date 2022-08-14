@@ -1,9 +1,8 @@
 ---
 poc-rancher:
   default_branch: main
-  description: ''
-  homepage: ''
-  language: HCL
+  description: 'Automatically set up Rancher on SCS compliant IaaS'
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,13 @@ poc-rancher:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
   topics: []
-  protection_rules: []
+  protection_rules: default

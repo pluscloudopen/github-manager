@@ -1,9 +1,8 @@
 ---
 k8s-grafana:
   default_branch: main
-  description: ''
-  homepage: ''
-  language: YAML
+  description: 'Deployment manifests for Grafana®'
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ k8s-grafana:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - k8s
+  protection_rules: default

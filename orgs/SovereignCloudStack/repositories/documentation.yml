@@ -2,8 +2,7 @@
 documentation:
   default_branch: main
   description: SCS documentation. Archived and merged into the Docs repository.
-  homepage: ''
-  language: Makefile
+  homepage: 'https://github.com/SovereignCloudStack/Docs'
   archived: true
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ documentation:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - documentation
+  protection_rules: default

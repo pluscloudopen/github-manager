@@ -2,8 +2,7 @@
 docker-horizon:
   default_branch: main
   description: Customized OpenStack Horizon container for the Sovereign Cloud Stack
-  homepage: ''
-  language: Dockerfile
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,11 +14,9 @@ docker-horizon:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
@@ -29,4 +26,4 @@ docker-horizon:
     - docker-image
     - openstack-environment
     - openstack-horizon
-  protection_rules: []
+  protection_rules: default

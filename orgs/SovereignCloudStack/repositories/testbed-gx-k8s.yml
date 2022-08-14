@@ -2,8 +2,7 @@
 testbed-gx-k8s:
   default_branch: main
   description: GAIA-X Kubernetes testbed
-  homepage: ''
-  language: MARKDOWN
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,11 +14,9 @@ testbed-gx-k8s:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
@@ -27,4 +24,5 @@ testbed-gx-k8s:
     admin:
   topics:
     - kubernetes
-  protection_rules: []
+    - gaia-x
+  protection_rules: default

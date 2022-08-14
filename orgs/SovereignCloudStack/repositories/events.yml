@@ -2,8 +2,7 @@
 events:
   default_branch: main
   description: Submissions for upcoming summits and events
-  homepage: ''
-  language: MARKDOWN
+  homepage: 'https://scs.community/news/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ events:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - community
+  protection_rules: default

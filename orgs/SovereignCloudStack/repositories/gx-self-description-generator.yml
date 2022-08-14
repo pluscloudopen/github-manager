@@ -2,8 +2,7 @@
 gx-self-description-generator:
   default_branch: main
   description: Tools for craeting Gaia-X Self-Descriptions (OpenStack, k8s, ...)
-  homepage: ''
-  language: Python
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ gx-self-description-generator:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - gaia-x
+  protection_rules: default

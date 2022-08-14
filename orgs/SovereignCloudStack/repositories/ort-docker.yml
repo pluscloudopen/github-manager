@@ -1,9 +1,8 @@
 ---
-Monitoring:
+ort-action:
   default_branch: main
-  description: Monitoring Architecture
-  homepage: ''
-  language: MARKDOWN
+  description: Docker images for OSS Review Toolkit
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ Monitoring:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - oss-review-toolkit
+  protection_rules: default

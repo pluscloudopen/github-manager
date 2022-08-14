@@ -2,8 +2,7 @@
 gx-scs-identity-provider:
   default_branch: main
   description: IdP and Federation Work for Gaia-X and SCS
-  homepage: ''
-  language: YAML
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ gx-scs-identity-provider:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - gaia-x
+  protection_rules: default

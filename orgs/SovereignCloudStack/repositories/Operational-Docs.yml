@@ -1,10 +1,9 @@
 ---
 Operational-Docs:
   default_branch: main
-  description: Docs about how to best run SCS environments. Includes RCAs.
-  homepage: ''
-  language: Python
-  archived: false
+  description: Docs about how to best run SCS environments. Includes RCAs. Archived and merged into the Docs repository.
+  homepage: 'https://github.com/SovereignCloudStack/Docs'
+  archived: true
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -15,15 +14,14 @@ Operational-Docs:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - documentation
+  protection_rules: default

@@ -2,8 +2,7 @@
 newsletter:
   default_branch: main
   description: Newsletter for the SCS community
-  homepage: ''
-  language: HTML
+  homepage: 'https://sovereigncloudstack.github.io/newsletter/digest/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ newsletter:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - community
+  protection_rules: default

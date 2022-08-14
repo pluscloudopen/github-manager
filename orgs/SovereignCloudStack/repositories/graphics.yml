@@ -2,8 +2,7 @@
 graphics:
   default_branch: main
   description: Central place for graphics
-  homepage: ''
-  language: MARKDOWN
+  homepage: 'https://scs.community/'
   archived: false
   has_issues: true
   has_projects: false
@@ -15,15 +14,14 @@ graphics:
   allow_rebase_merge: true
   teams:
     maintain:
-      - maintainers
     pull:
     push:
     admin:
-      - admins
   collaborators:
     maintain:
     pull:
     push:
     admin:
-  topics: []
-  protection_rules: []
+  topics:
+    - community
+  protection_rules: default
