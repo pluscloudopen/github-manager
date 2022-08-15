@@ -1,5 +1,5 @@
 ---
-k8s-coretx:
+k8s-cortex:
   default_branch: main
   description: 'Deployment manifests for Cortex'
   homepage: 'https://scs.community/'
