@@ -1,7 +1,7 @@
 ---
-github-permissions:
+github-manager:
   default_branch: main
-  description: Managing the GitHub permissions of the SovereignCloudStack organization
+  description: GitHub repository management through Ansible & Python
   homepage: 'https://scs.community/contribute/'
   archived: false
   has_issues: true
