@@ -9,16 +9,16 @@
       opentelekomcloud.gitcontrol.members:
         root: "{{ gitstyring_root_dir }}"
         token: "{{ github_token }}"
-      no_log: true
+      no_log: false
 
     - name: manage teams
       opentelekomcloud.gitcontrol.teams:
         root: "{{ gitstyring_root_dir }}"
         token: "{{ github_token }}"
-      no_log: true
+      no_log: false
 
     - name: manage repositories
       opentelekomcloud.gitcontrol.repositories:
         root: "{{ gitstyring_root_dir }}"
         token: "{{ github_token }}"
-      no_log: true
+      no_log: false
