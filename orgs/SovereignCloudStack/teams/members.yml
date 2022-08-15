@@ -47,6 +47,7 @@ teams:
     member:
       - o-otte
       - joshmue
+      - master-caster
   gridscale:
     description: gridscale GmbH
     visibility: public

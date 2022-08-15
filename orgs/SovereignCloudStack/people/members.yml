@@ -129,3 +129,6 @@ users:
   - name: Sebastian Wenner
     login: wenners
     role: Member
+  - name: Benjamin
+    login: master-caster
+    role: Member
