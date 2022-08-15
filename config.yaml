@@ -61,6 +61,15 @@ labels:
   - name: Ops
     description: "Issues or pull requests relevant for Team 3: Ops Tooling"
     color: "f3de42"
+  - name: Community
+    description: "Issues or pull requests relevant for SIG Community"
+    color: "26a69a"
+  - name: IAM
+    description: "Issues or pull requests relevant for SIG IAM"
+    color: "7cb342"
+  - name: osism
+    description: "Issues or pull requests relevant for osism"
+    color: "f4511e"
   - name: epic
     description: "Issues that are spread across multiple sprints"
     color: "6a5acd"
