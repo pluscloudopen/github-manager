@@ -52,6 +52,9 @@ labels:
   - name: work in progress
     description: "Pull requests that are work in progress, do not merge them"
     color: "c5def5"
+  - name: needs refinement
+    description: "User stories that need to be refined for further progress"
+    color: "8cb1fe"
   - name: IaaS
     description: "Issues or pull requests relevant for Team1: IaaS"
     color: "3d51e5"
