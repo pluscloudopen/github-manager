@@ -132,3 +132,6 @@ users:
   - name: Benjamin
     login: master-caster
     role: Member
+  - name: Cemil
+    login: cedegi
+    role: Member
