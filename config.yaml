@@ -2,6 +2,8 @@
 milestones:
   - 'v3.0.0'
   - 'v4.0.0'
+  - 'R4 (v5.0.0)'
+  - 'R5 (v6.0.0)'
 
 labels:
   - name: bug
