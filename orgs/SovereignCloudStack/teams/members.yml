@@ -2,7 +2,6 @@
 teams:
   osism:
     description: OSISM
-    visibility: secret
     parent:
     maintainer:
       - berendt
