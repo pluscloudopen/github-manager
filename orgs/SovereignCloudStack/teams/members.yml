@@ -2,7 +2,7 @@
 teams:
   23technologies:
     description: "23technologies GmbH"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - berendt
@@ -12,7 +12,7 @@ teams:
       - fynluk
   8gears:
     description: "8gears Ltd."
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - Vad1mo
@@ -20,7 +20,7 @@ teams:
       - Vad1mo
   b1-systems:
     description: "B1 Systems GmbH"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - curx
@@ -31,7 +31,7 @@ teams:
       - tinguin
   cloud-and-heat:
     description: "Cloud&Heat Technologies GmbH"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - horazont
@@ -40,7 +40,7 @@ teams:
       - kgube
   gonicus:
     description: "GONICUS GmbH"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - o-otte
@@ -50,7 +50,7 @@ teams:
       - master-caster
   gridscale:
     description: "gridscale GmbH"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - ajfriesen
@@ -59,7 +59,7 @@ teams:
       - itakouna
   openinfra:
     description: "OpenInfra Foundation"
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - ttx
@@ -67,7 +67,7 @@ teams:
       - ttx
   osba:
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
-    privacy: closed
+    visibility: secret
     parent:
     maintainer:
       - garloff
@@ -78,7 +78,7 @@ teams:
       - ManuelaUr
   osism:
     description: "OSISM GmbH"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - berendt
@@ -91,7 +91,7 @@ teams:
       - itrich
   plusserver:
     description: "PlusServer GmbH"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - frosty-geek
@@ -107,7 +107,7 @@ teams:
       - coro1404
   syself:
     description: "Syself GmbH"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - batistein
@@ -116,7 +116,7 @@ teams:
       - janiskemper
   uhurutec:
     description: "UhuruTec AG"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - jklippel
@@ -126,7 +126,7 @@ teams:
       - mauhau
   univention:
     description: "Univention GmbH"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - reqa
@@ -135,7 +135,7 @@ teams:
       - stunivention
   wavecon:
     description: "Wavecon GmbH"
-    visibility: closed
+    visibility: secret
     parent:
     maintainer:
       - jnull
