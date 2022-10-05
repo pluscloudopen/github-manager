@@ -2,166 +2,166 @@
 members:
   - name: Andrej Friesen
     login: ajfriesen
-    role: Member
+    role: member
   - name: Sven Batista Steinbach
     login: batistein
-    role: Member
+    role: member
   - name: Christian Berendt
     login: berendt
     role: Owner
   - name: Christian Otto Stelter
     login: costelter
-    role: Member
+    role: member
   - name: Stephan Ilaender
     login: coro1404
-    role: Member
+    role: member
   - name: Thorsten Schifferdecker
     login: curx
-    role: Member
+    role: member
   - name: Elena Zander
     login: elZander
-    role: Member
+    role: member
   - name: Felix Kronlage-Dammers
     login: fkr
     role: Owner
   - name: Ralf Heiringhoff
     login: frosty-geek
-    role: Member
+    role: member
   - name: Fynn Späker
     login: fynluk
-    role: Member
+    role: member
   - name: Kurt Garloff
     login: garloff
     role: Owner
   - name: Christian Rost
     login: grischdian
-    role: Member
+    role: member
   - name: Max Harmathy
     login: harmathy
-    role: Member
+    role: member
   - name: Jonas Schäfer
     login: horazont
-    role: Member
+    role: member
   - name: Philipp Westphal
     login: isaacintactile
-    role: Member
+    role: member
   - name: Ibrahim takouna
     login: itakouna
-    role: Member
+    role: member
   - name: Eduard Itrich
     login: itrich
     role: Owner
   - name: ""
     login: janiskemper
-    role: Member
+    role: member
   - name: ""
     login: jklippel
-    role: Member
+    role: member
   - name: Jeff
     login: jnull
-    role: Member
+    role: member
   - name: Joshua Mühlfort
     login: joshmue
-    role: Member
+    role: member
   - name: ""
     login: kgube
-    role: Member
+    role: member
   - name: linwalth
     login: linwalth
-    role: Member
+    role: member
   - name: Markus Lindenblatt
     login: maliblatt
-    role: Member
+    role: member
   - name: Manuela Urban
     login: ManuelaUr
-    role: Member
+    role: member
   - name: Mark Goddard
     login: markgoddard
-    role: Member
+    role: member
   - name: ""
     login: matfechner
-    role: Member
+    role: member
   - name: ""
     login: mauhau
-    role: Member
+    role: member
   - name: Malte Münch
     login: mxmxchere
-    role: Member
+    role: member
   - name: Andre Machowiak
     login: nerdicbynature
-    role: Member
+    role: member
   - name: Toens Bueker
     login: neuroserve
-    role: Member
+    role: member
   - name: Oliver Otte
     login: o-otte
-    role: Member
+    role: member
   - name: Dr. Jens Harbott
     login: osfrickler
-    role: Member
+    role: member
   - name: Philipp Fell
     login: Phil9219
-    role: Member
+    role: member
   - name: René Lipkowsky
     login: PSwatchmen
-    role: Member
+    role: member
   - name: ""
     login: ra-beer
-    role: Member
+    role: member
   - name: Arvid Requate
     login: reqa
-    role: Member
+    role: member
   - name: ""
     login: stunivention
-    role: Member
+    role: member
   - name: Tim Beermann
     login: tibeer
-    role: Member
+    role: member
   - name: Florian Winkler
     login: tinguin
-    role: Member
+    role: member
   - name: Tobias Rydberg
     login: tobberydberg
-    role: Member
+    role: member
   - name: Thierry Carrez
     login: ttx
-    role: Member
+    role: member
   - name: Vadim Bauer
     login: Vad1mo
-    role: Member
+    role: member
   - name: Sebastian Wenner
     login: wenners
-    role: Member
+    role: member
   - name: Benjamin
     login: master-caster
-    role: Member
+    role: member
   - name: Cemil
     login: cedegi
-    role: Member
+    role: member
   - name: Alexander Diab
     login: alexander-diab
-    role: Member
+    role: member
   - name: PJSINKA
     login: pjsinka
-    role: Member
+    role: member
   - name: Stefan Schmidt
     login: ZaphodB
-    role: Member
+    role: member
   - name: Katharina Heinritz
     login: heinritzkat
-    role: Member
+    role: member
   - name: Nancy Buntfuss
     login: nbuntfuss
-    role: Member
+    role: member
   - name: Juan Pedro Torres
     login: JuanPTM
-    role: Member
+    role: member
   - name: Christian Schilling
     login: chschilling
-    role: Member
+    role: member
   - name: Max Wolfs
     login: maxwolfs
-    role: Member
+    role: member
 # ==========================
 teams:
   - slug: "23technologies"
