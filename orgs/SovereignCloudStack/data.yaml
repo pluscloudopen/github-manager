@@ -236,7 +236,7 @@ teams:
       - maxwolfs
   - slug: "osism"
     description: "OSISM GmbH"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - berendt
@@ -247,7 +247,7 @@ teams:
       - osfrickler
   - slug: "plusserver"
     description: "PlusServer GmbH"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - frosty-geek
@@ -262,7 +262,7 @@ teams:
       - coro1404
   - slug: "syself"
     description: "Syself GmbH"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - batistein
@@ -270,7 +270,7 @@ teams:
     member:
   - slug: "uhurutec"
     description: "UhuruTec AG"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - jklippel
@@ -279,7 +279,7 @@ teams:
       - mauhau
   - slug: "univention"
     description: "Univention GmbH"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - reqa
@@ -289,7 +289,7 @@ teams:
       - nbuntfuss
   - slug: "wavecon"
     description: "Wavecon GmbH"
-    visibility: closed
+    privacy: closed
     parent:
     maintainer:
       - jnull
