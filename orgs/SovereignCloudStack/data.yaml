@@ -179,7 +179,7 @@ teams:
     parent:
     maintainer:
       - Vad1mo
-    member:
+    member: []
   - slug: "b1-systems"
     description: "B1 Systems GmbH"
     privacy: closed
@@ -221,7 +221,7 @@ teams:
     parent:
     maintainer:
       - ttx
-    member:
+    member: []
   - slug: "osba"
     description: "Open Source Business Alliance – Bundesverband für digitale Souveränität e.V."
     privacy: closed
@@ -267,7 +267,7 @@ teams:
     maintainer:
       - batistein
       - janiskemper
-    member:
+    member: []
   - slug: "uhurutec"
     description: "UhuruTec AG"
     privacy: closed
