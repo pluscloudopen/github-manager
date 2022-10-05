@@ -8,7 +8,7 @@ members:
     role: member
   - name: Christian Berendt
     login: berendt
-    role: Owner
+    role: admin
   - name: Christian Otto Stelter
     login: costelter
     role: member
@@ -23,7 +23,7 @@ members:
     role: member
   - name: Felix Kronlage-Dammers
     login: fkr
-    role: Owner
+    role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
     role: member
@@ -32,7 +32,7 @@ members:
     role: member
   - name: Kurt Garloff
     login: garloff
-    role: Owner
+    role: admin
   - name: Christian Rost
     login: grischdian
     role: member
@@ -50,7 +50,7 @@ members:
     role: member
   - name: Eduard Itrich
     login: itrich
-    role: Owner
+    role: admin
   - name: ""
     login: janiskemper
     role: member
@@ -314,7 +314,7 @@ branch_protection_templates:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
       dismiss_stale_reviews: true
-      require_code_owner_reviews: true
+      require_code_admin_reviews: true
       required_approving_review_count: 1
     restrictions:
       users: []  # list of members or empty list
