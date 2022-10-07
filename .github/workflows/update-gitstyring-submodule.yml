@@ -7,7 +7,7 @@ name: Update gitstyring submodule
     paths:
       - .github/workflows/update-gitstyring-submodule.yml
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 1 * * *"
   repository_dispatch:
     types:
       - update-gitstyring-submodule
