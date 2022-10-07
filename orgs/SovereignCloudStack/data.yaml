@@ -314,7 +314,7 @@ branch_protection_templates:
         users: []  # list of members or empty list
         teams: []  # list of teams or empty list
       dismiss_stale_reviews: true
-      require_code_admin_reviews: true
+      require_code_owner_reviews: false
       required_approving_review_count: 1
     restrictions:
       users: []  # list of members or empty list
@@ -323,4 +323,3 @@ branch_protection_templates:
     required_linear_history: false
     allow_force_pushes: false
     allow_deletions: false
-    required_signatures: true
