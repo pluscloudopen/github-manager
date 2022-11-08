@@ -171,6 +171,9 @@ members:
   - name: Friederike Zelke
     login: FriederikeZelke
     role: member
+  - name: Paul-Philipp Kuschy
+    login: ppkuschy
+    role: member
   - name: Larissa
     login: aeroflydesign
     role: member
@@ -258,6 +261,7 @@ teams:
       - tibeer
       - ra-beer
       - osfrickler
+      - ppkuschy
       - aeroflydesign
   - slug: "plusserver"
     description: "PlusServer GmbH"
