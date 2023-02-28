@@ -1,0 +1,21 @@
+---
+595ef528:
+  default_branch: main
+  description: '595ef528 playground'
+  homepage: 'https://595ef528.pco.get-cloud.io/'
+  topics:
+    - documentation
+  archived: true
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: true
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"

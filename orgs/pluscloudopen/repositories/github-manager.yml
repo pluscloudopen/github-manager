@@ -1,11 +1,12 @@
 ---
-ort-action:
+github-manager:
   default_branch: main
-  description: GitHub Action to run OSS Review Toolkit
-  homepage: 'https://scs.community/'
+  description: GitHub repository management through Ansible & Python
+  homepage: ''
   topics:
-    - oss-review-toolkit
-  archived: true
+    - github
+    - community
+  archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
@@ -18,4 +19,4 @@ ort-action:
   collaborators: []
   branch_protections:
     - branch: "main"
-      template: "main"
+      template: "owner_only"

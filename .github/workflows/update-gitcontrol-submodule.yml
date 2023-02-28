@@ -32,8 +32,8 @@ jobs:
           COMMIT_MESSAGE: |
             chore: update gitcontrol submodule
 
-            Signed-off-by: PCO Bot <pcobot@users.noreply.github.com>
-          COMMIT_NAME: 'PCO Bot'
+            Signed-off-by: pluscloudopen Bot <pcobot@users.noreply.github.com>
+          COMMIT_NAME: 'pluscloudopen Bot'
           ONLY_DEFAULT_BRANCH: true
           PR_BRANCH_NAME: 'update-gitcontrol-submodule'
           PR_BRANCH_PREFIX: 'chore/'

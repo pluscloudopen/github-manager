@@ -1,15 +1,15 @@
 ---
-ort-docker:
+issues:
   default_branch: main
-  description: Docker images for OSS Review Toolkit
-  homepage: 'https://scs.community/'
+  description: This repository is used for issues that are cross-repository or not bound to a specific repository.
+  homepage: ''
   topics:
-    - oss-review-toolkit
+    - community
   archived: false
   has_issues: true
   has_projects: false
   has_wiki: false
-  private: false
+  private: true
   delete_branch_on_merge: true
   allow_merge_commit: false
   allow_squash_merge: true

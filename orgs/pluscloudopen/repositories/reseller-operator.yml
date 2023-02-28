@@ -1,8 +1,8 @@
 ---
-community-infra-cologne:
+reseller-operator:
   default_branch: main
-  description: Docker Compose stacks of community infrastructure on cologne.scs.community
-  homepage: 'https://scs.community/'
+  description: ''
+  homepage: ''
   topics:
     - community
   archived: false

@@ -1,0 +1,21 @@
+---
+595ef528:
+  default_branch: main
+  description: 'Example OpenStack Heat Templates ready to use on pluscloud open.'
+  homepage: ''
+  topics:
+    - documentation
+  archived: false
+  has_issues: true
+  has_projects: false
+  has_wiki: false
+  private: true
+  delete_branch_on_merge: true
+  allow_merge_commit: false
+  allow_squash_merge: true
+  allow_rebase_merge: true
+  teams: []
+  collaborators: []
+  branch_protections:
+    - branch: "main"
+      template: "main"
