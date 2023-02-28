@@ -11,15 +11,15 @@ jobs:
   manage-github-repositories:
     runs-on: ubuntu-latest
     steps:
-      - name: Check token permissions
-        run: |
-          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
-            echo "No valid PAT found for ${{github.actor}}"
-            exit 1
-          else
-            echo "Found valid PAT for ${{github.actor}}"
-          fi
-
+      #      - name: Check token permissions
+      #        run: |
+      #          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
+      #            echo "No valid PAT found for ${{github.actor}}"
+      #            exit 1
+      #          else
+      #            echo "Found valid PAT for ${{github.actor}}"
+      #          fi
+      #
       - name: Checkout repo
         uses: actions/checkout@v3
         with:
@@ -45,10 +45,11 @@ jobs:
         run: |
           pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN
         env:
-          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+          API_TOKEN: ${{ secrets.GHP_PCOBOT }}
+      #   API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Manage github repositories with Python
         run: |
           pipenv run python3 manage.py --keep_labels TRUE
         env:
-          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+          API_TOKEN: ${{ secrets.GHP_PCOBOT }}
