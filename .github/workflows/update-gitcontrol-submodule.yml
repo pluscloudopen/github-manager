@@ -1,0 +1,40 @@
+---
+name: Update gitcontrol submodule
+
+"on":
+  workflow_dispatch:
+  push:
+    paths:
+      - .github/workflows/update-gitcontrol-submodule.yml
+    branches:
+      - main
+  schedule:
+    - cron: "0 8 * * *"
+  repository_dispatch:
+    types:
+      - update-gitcontrol-submodule
+
+jobs:
+
+  update-gitcontrol-submodule:
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          submodules: true
+      - uses: technote-space/create-pr-action@v2
+        with:
+          EXECUTE_COMMANDS: |
+            git submodule update --remote
+          COMMIT_EMAIL: 'pcobot@users.noreply.github.com'
+          COMMIT_MESSAGE: |
+            chore: update gitcontrol submodule
+
+            Signed-off-by: PCO Bot <pcobot@users.noreply.github.com>
+          COMMIT_NAME: 'PCO Bot'
+          ONLY_DEFAULT_BRANCH: true
+          PR_BRANCH_NAME: 'update-gitcontrol-submodule'
+          PR_BRANCH_PREFIX: 'chore/'
+          PR_TITLE: 'chore: update gitcontrol submodule'
