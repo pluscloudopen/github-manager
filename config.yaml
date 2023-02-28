@@ -1,9 +1,9 @@
 ---
 milestones:
-  - 'R2 (v3.0.0)'
-  - 'R3 (v4.0.0)'
-  - 'R4 (v5.0.0)'
-  - 'R5 (v6.0.0)'
+  - '2303'
+  - '2306'
+  - '2309'
+  - '2312'
 
 labels:
   - name: bug
@@ -57,30 +57,9 @@ labels:
   - name: needs refinement
     description: "User stories that need to be refined for further progress"
     color: "8cb1fe"
-  - name: IaaS
-    description: "Issues or pull requests relevant for Team1: IaaS"
-    color: "3d51e5"
-  - name: Container
-    description: "Issues or pull requests relevant for Team 2: Container Infra and Tooling"
-    color: "0dce67"
-  - name: Ops
-    description: "Issues or pull requests relevant for Team 3: Ops Tooling"
-    color: "f3de42"
-  - name: Community
-    description: "Issues or pull requests relevant for SIG Community"
-    color: "26a69a"
-  - name: IAM
-    description: "Issues or pull requests relevant for SIG IAM"
-    color: "7cb342"
-  - name: osism
-    description: "Issues or pull requests relevant for osism"
-    color: "f4511e"
   - name: epic
     description: "Issues that are spread across multiple sprints"
     color: "6a5acd"
-  - name: release3
-    description: "Issues or pull requests that are aimed for release 3"
-    color: "51e898"
   - name: action required
     description: "Issues or pull requests that urgently require action"
     color: "dc143c"
@@ -90,75 +69,6 @@ labels:
   - name: longterm
     description: "Issues or pull requests that relevent for longterm support"
     color: "ff00ff"
-  - name: standards
-    description: "Issues / ADR / pull requests relevant for standardization & certification"
-    color: "50c3a5"
-  - name: "SCS enables with an excellent toolbox"
-    description: "SCS enables Operators, Integrators and Developers with an excellent toolbox"
-    color: "D4C5F9"
-  - name: "SCS is continuously built and tested"
-    description: "SCS is continuously built and tested in order to raise velocity and quality"
-    color: "D4C5F9"
-  - name: "SCS is federated"
-    description: "SCS is federated"
-    color: "D4C5F9"
-  - name: "SCS is standardized"
-    description: "SCS is standardized"
-    color: "D4C5F9"
-  - name: "SCS is understandable"
-    description: "SCS is understandable"
-    color: "D4C5F9"
-  - name: "SCS-VP01"
-    description: "Related to tender lot SCS-VP01"
-    color: "0F5FE1"
-  - name: "SCS-VP02"
-    description: "Related to tender lot SCS-VP02"
-    color: "0F5FE1"
-  - name: "SCS-VP03"
-    description: "Related to tender lot SCS-VP03"
-    color: "0F5FE1"
-  - name: "SCS-VP04"
-    description: "Related to tender lot SCS-VP04"
-    color: "0F5FE1"
-  - name: "SCS-VP05"
-    description: "Related to tender lot SCS-VP05"
-    color: "0F5FE1"
-  - name: "SCS-VP06a"
-    description: "Related to tender lot SCS-VP06a"
-    color: "0F5FE1"
-  - name: "SCS-VP06b"
-    description: "Related to tender lot SCS-VP06b"
-    color: "0F5FE1"
-  - name: "SCS-VP06c"
-    description: "Related to tender lot SCS-VP06c"
-    color: "0F5FE1"
-  - name: "SCS-VP06d"
-    description: "Related to tender lot SCS-VP06d"
-    color: "0F5FE1"
-  - name: "SCS-VP06e"
-    description: "Related to tender lot SCS-VP06e"
-    color: "0F5FE1"
-  - name: "SCS-VP08"
-    description: "Related to tender lot SCS-VP08"
-    color: "0F5FE1"
-  - name: "SCS-VP09a"
-    description: "Related to tender lot SCS-VP09a"
-    color: "0F5FE1"
-  - name: "SCS-VP09b"
-    description: "Related to tender lot SCS-VP09b"
-    color: "0F5FE1"
-  - name: "SCS-VP09c"
-    description: "Related to tender lot SCS-VP09c"
-    color: "0F5FE1"
-  - name: "SCS-VP10"
-    description: "Related to tender lot SCS-VP10"
-    color: "0F5FE1"
-  - name: "SCS-VP11"
-    description: "Related to tender lot SCS-VP11"
-    color: "0F5FE1"
-  - name: "SCS-VP13"
-    description: "Related to tender lot SCS-VP13"
-    color: "0F5FE1"
   - name: "release-notes"
     description: "This change needs to be highlighted in the upcoming release notes"
     color: "50C3A5"
