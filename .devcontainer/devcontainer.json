@@ -16,7 +16,7 @@
 		"ghcr.io/devcontainers-contrib/features/ansible:2": {
 			"version": "latest"
 		}
-	}
+	},
 
 	"postStartCommand": "python3 -m pip install --upgrade pip; python3 -m pip install pipenv wheel; pipenv install; git submodule update --recursive --init; ansible-galaxy collection install ansible-collection-gitcontrol"
 
