@@ -1,5 +1,5 @@
 ---
-595ef528:
+heat-examples:
   default_branch: main
   description: 'Example OpenStack Heat Templates ready to use on pluscloud open.'
   homepage: ''

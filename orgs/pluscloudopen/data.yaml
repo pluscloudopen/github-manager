@@ -5,10 +5,10 @@ members:
     role: admin
   - name: Christian Otto Stelter
     login: costelter
-    role: member
+    role: admin
   - name: Elena Zander
     login: elZander
-    role: member
+    role: admin
   - name: Ralf Heiringhoff
     login: frosty-geek
     role: admin
@@ -20,31 +20,31 @@ members:
     role: admin
   - name: Andre Machowiak
     login: nerdicbynature
-    role: member
+    role: admin
   - name: Toens Bueker
     login: neuroserve
-    role: member
+    role: admin
   - name: Philipp Fell
     login: Phil9219
-    role: member
+    role: admin
   - name: René Lipkowsky
     login: PSwatchmen
-    role: member
+    role: admin
   - name: Sascha Scherrer
     login: saschascherrer
-    role: member
+    role: admin
   - name: Annika Opitz
     login: kub3anni
-    role: member
+    role: admin
   - name: Marvin Beckmann
     login: R3m1n0X
-    role: member
+    role: admin
   - name: Sebastian Knop
     login: sknop-cgn
-    role: member
+    role: admin
   - name: Steffen Poertner
     login: spoer78
-    role: member
+    role: admin
 # ==========================
 teams:
   - slug: "pco"
