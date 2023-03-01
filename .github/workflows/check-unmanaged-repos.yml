@@ -12,14 +12,14 @@ jobs:
   check-unmanaged-repos:
     runs-on: ubuntu-latest
     steps:
-      - name: Check token permissions
-        run: |
-          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
-            echo "No valid PAT found for ${{github.actor}}"
-            exit 1
-          else
-            echo "Found valid PAT for ${{github.actor}}"
-          fi
+      #      - name: Check token permissions
+      #        run: |
+      #          if [ -z "${{ secrets[format('GHP_{0}', github.actor)] }}" ]; then
+      #            echo "No valid PAT found for ${{github.actor}}"
+      #            exit 1
+      #          else
+      #            echo "Found valid PAT for ${{github.actor}}"
+      #          fi
 
       - name: Checkout repo
         uses: actions/checkout@v3
@@ -47,7 +47,8 @@ jobs:
           echo "CHECK_RESULT=$OUTPUT" >> "$GITHUB_OUTPUT"
           exit $RESULT
         env:
-          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
+          API_TOKEN: ${{ secrets.GHP_PCOBOT }}
+          #          API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Create issue on failed workflow
         if: ${{ failure() }}
