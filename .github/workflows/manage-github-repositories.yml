@@ -46,6 +46,7 @@ jobs:
           pipenv run ansible-playbook playbook.yaml -e api_token=$API_TOKEN
         env:
           API_TOKEN: ${{ secrets.GHP_PCOBOT }}
+          ORGANIZATION: "pluscloudopen"
       #   API_TOKEN: ${{ secrets[format('GHP_{0}', github.actor)] }}
 
       - name: Manage github repositories with Python
