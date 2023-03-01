@@ -8,7 +8,7 @@ logging.basicConfig(
     format="%(asctime)s - %(message)s", level=logging.INFO, datefmt="%Y-%m-%d %H:%M:%S"
 )
 
-API_TOKEN = os.environ.get("API_TOKEN")
+API_TOKEN = os.environ.get("API_TOKEN").rstrip()
 ORGANIZATION = os.environ.get("ORGANIZATION", "sovereigncloudstack")
 
 gh = github.Github(login_or_token=API_TOKEN)
