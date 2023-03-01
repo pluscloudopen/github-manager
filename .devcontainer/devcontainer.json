@@ -18,7 +18,7 @@
 		}
 	}
 
-	"postStartCommand": "python3 -m pip install --upgrade pip; python3 -m pip install pipenv wheel; pipenv install; ansible-galaxy collection install ansible-collection-gitcontrol"
+	"postStartCommand": "python3 -m pip install --upgrade pip; python3 -m pip install pipenv wheel; pipenv install; git submodule update; ansible-galaxy collection install ansible-collection-gitcontrol"
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
