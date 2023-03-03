@@ -1,0 +1,133 @@
+---
+members:
+  - name: pluscloudopen Bot
+    login: pcobot
+    role: admin
+  - name: Christian Otto Stelter
+    login: costelter
+    role: admin
+  - name: Elena Zander
+    login: elZander
+    role: admin
+  - name: Ralf Heiringhoff
+    login: frosty-geek
+    role: admin
+  - name: Johann Gnaucke
+    login: wieneo
+    role: admin
+  - name: Markus Lindenblatt
+    login: maliblatt
+    role: admin
+  - name: Andre Machowiak
+    login: nerdicbynature
+    role: admin
+  - name: Toens Bueker
+    login: neuroserve
+    role: admin
+  - name: Philipp Fell
+    login: Phil9219
+    role: admin
+  - name: René Lipkowsky
+    login: PSwatchmen
+    role: admin
+  - name: Sascha Scherrer
+    login: saschascherrer
+    role: admin
+  - name: Annika Opitz
+    login: kub3anni
+    role: admin
+  - name: Marvin Beckmann
+    login: R3m1n0X
+    role: admin
+  - name: Sebastian Knop
+    login: sknop-cgn
+    role: admin
+  - name: Steffen Poertner
+    login: spoer78
+    role: admin
+# ==========================
+teams:
+  - slug: "pco"
+    description: "pluscloud open squad"
+    privacy: closed
+    parent:
+    maintainer:
+      - frosty-geek
+      - maliblatt
+    member:
+      - costelter
+      - elZander
+      - nerdicbynature
+      - neuroserve
+      - Phil9219
+      - PSwatchmen
+  - slug: "pske"
+    description: "pluscontainer squad"
+    privacy: closed
+    parent:
+    maintainer:
+      - wieneo
+    member:
+      - kub3anni
+      - R3m1n0X
+      - saschascherrer
+      - sknop-cgn
+# ==========================
+branch_protection_templates:
+  main:
+    required_status_checks:
+      strict: true
+      checks:
+        - context: "DCO"
+          app_id: 29752456
+    enforce_admins: true
+    required_pull_request_reviews:
+      dismissal_restrictions:
+        users: []  # list of members or empty list
+        teams: []  # list of teams or empty list
+      dismiss_stale_reviews: false
+      require_code_owner_reviews: false
+      required_approving_review_count: 1
+    restrictions:
+    required_linear_history: false
+    allow_force_pushes: false
+    allow_deletions: false
+  owner_only:
+    required_status_checks:
+      strict: true
+      checks:
+        - context: "DCO"
+          app_id: 29752456
+    enforce_admins: true
+    required_pull_request_reviews:
+      dismissal_restrictions:
+        users: []  # list of members or empty list
+        teams: []  # list of teams or empty list
+      dismiss_stale_reviews: false
+      require_code_owner_reviews: false
+      required_approving_review_count: 1
+    restrictions:
+      users: []  # list of members or empty list
+      teams: []  # list of teams or empty list
+      apps: []  # list of app slugs with push access
+    required_linear_history: false
+    allow_force_pushes: false
+    allow_deletions: false
+  owner_bypass:
+    required_status_checks:
+      strict: true
+      checks:
+        - context: "DCO"
+          app_id: 29752456
+    enforce_admins: false
+    required_pull_request_reviews:
+      dismissal_restrictions:
+        users: []  # list of members or empty list
+        teams: []  # list of teams or empty list
+      dismiss_stale_reviews: false
+      require_code_owner_reviews: false
+      required_approving_review_count: 1
+    restrictions:
+    required_linear_history: false
+    allow_force_pushes: false
+    allow_deletions: false
